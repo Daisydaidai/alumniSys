@@ -1,0 +1,268 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.info-cont {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.back-header {
+  padding: 32rpx 18rpx;
+  color: #0B102C;
+  font-size: 32rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.back-header .label-title {
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+}
+.dialog-info {
+  background-color: #F5F7FF;
+  padding: 26rpx 32rpx;
+  color: #595E75;
+}
+.my-style {
+  color: #333333;
+  font-size: 28rpx;
+  padding: 32rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.my-style .form-r {
+  color: #595E75;
+  font-size: 28rpx;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.my-style .form-c {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  width: 502rpx;
+}
+.my-style .form-c .u-demo-result-line {
+  color: #9FA4B5;
+}
+.form-left {
+  width: 200rpx;
+  font-weight: bold;
+}
+.my-phone,
+.my-ind,
+.my-pre-school {
+  border-bottom: 16rpx solid #F5F7FF;
+}
+.my-intr {
+  padding: 32rpx;
+  border-bottom: 16rpx solid #F5F7FF;
+}
+.my-intr .intr-fill {
+  margin-top: 24rpx;
+  font-size: 28rpx;
+  width: 100%;
+  height: 140rpx;
+  line-height: 40rpx;
+}
+.my-label {
+  padding: 32rpx 0;
+  padding-right: 32rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  border-bottom: 16rpx solid #F5F7FF;
+}
+.my-label .to-choose {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.my-label .add-label-btn {
+  width: 176rpx;
+  height: 64rpx;
+  background-color: #405AFE;
+  color: #fff;
+  border-radius: 8rpx;
+  text-align: center;
+  line-height: 64rpx;
+  font-size: 28rpx;
+  margin: 32rpx auto;
+}
+.all-label-wrap {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: calc(100vh - 0px);
+  width: 100%;
+  background-color: #fff;
+  z-index: 999;
+}
+.all-label-wrap .add-labal-t {
+  padding: 32rpx 18rpx;
+  color: #0B102C;
+  font-size: 32rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.all-label-wrap .add-labal-t .label-title {
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+}
+.all-label-wrap .dialog-text {
+  padding: 12rpx 0;
+  color: #595E75;
+  font-size: 24rpx;
+}
+.label-type-title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  color: #0B102C;
+  font-size: 28rpx;
+  font-weight: bold;
+  margin-top: 32rpx;
+  margin-bottom: 24rpx;
+}
+.label-item-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.label-item-wrap .label-item {
+  padding: 12rpx 24rpx;
+  background-color: #F4F5FE;
+  font-size: 24rpx;
+  color: #9FA4B5;
+  border-radius: 8rpx;
+  margin-right: 16rpx;
+  margin-bottom: 16rpx;
+}
+.label-item-wrap .active_label {
+  background-color: #405AFE;
+  color: #fff;
+}
+.label-type {
+  height: calc(100vh - 0px - 138rpx);
+  overflow-y: scroll;
+  padding-bottom: 98rpx;
+}
+.comp {
+  position: fixed;
+  bottom: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  background-color: #fff;
+  padding: 18rpx 32rpx;
+  width: 100%;
+}
+.comp .home-btn {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  margin-right: 32rpx;
+  width: 88rpx;
+  height: 88rpx;
+  border-radius: 50%;
+  box-shadow: 0rpx 8rpx 16rpx 0rpx rgba(0, 0, 0, 0.15);
+}
+.comp .comp-btn {
+  width: 566rpx;
+  height: 88rpx;
+  background-color: #405AFE;
+  color: #fff;
+  font-weight: bold;
+  font-size: 32rpx;
+  line-height: 88rpx;
+  text-align: center;
+  border-radius: 50rpx;
+  box-shadow: 0rpx 8rpx 16rpx 0rpx rgba(64, 90, 254, 0.3);
+}
+.label-item-list {
+  padding: 0 32rpx;
+}
+.my_label_wrap {
+  padding: 32rpx;
+  padding-bottom: 0;
+}
+.my_label_title {
+  color: #0B102C;
+  font-size: 28rpx;
+  font-weight: bold;
+}
+.my_cur_label {
+  padding: 8rpx 16rpx;
+  background-color: #D8DDFE;
+  border-radius: 8rpx;
+  margin-right: 16rpx;
+  margin-top: 8rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  color: #405AFE;
+}
+.my_show_label {
+  padding: 8rpx 16rpx;
+  background-color: #D8DDFE;
+  border-radius: 8rpx;
+  margin-right: 16rpx;
+  margin-top: 16rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  color: #405AFE;
+}
+.my_cur_label::after {
+  content: "";
+  display: inline-block;
+  width: 28rpx;
+  height: 28rpx;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAABaklEQVRIS+2VvUoDURCFzxiDSWWhjT6BhS9gIS7kAWzcJhERLNTOziewttLCSizWIpUiWAUDFrZWvoMG8gAJ7JGrRC6b3b0zi6QQt70/356558wIZvzJjHn4B/56xadKurnLlbmUrwI57SdyXYUYdXhE8iwdy9pzVwb+HVPAOGZtUMcjwZZADqzQrTaPQV6IyEM/wTYgLAW6xY2YzYU67qxQH/Yxxs5bV0bZChW61ArVwBy8NBZaqBYWBLoN0T4bHPEeQO6bWmAqYBnUClMD86AEmhM3FhkkL1Km1uaXF4Q461tgJoWTv406PAF5/n1YDp8SubI0B5NC/80ANKw5NSnMGmQRqFVpDiqFRW7U5jTY2vwNIetboaUKQ7AfIwWag0qhFmaF5ir8mmcpL605C7XBQpdGbbqh+WINtd+RBLLeT2RVNZ5ae1zq3WCYHZ7agLshPpzHcu9W3lVA7cVV9qlyWOXiojN/H/gJ3PAjLMijM5sAAAAASUVORK5CYII=);
+  background-size: 100% 100%;
+  margin-left: 8rpx;
+}
+

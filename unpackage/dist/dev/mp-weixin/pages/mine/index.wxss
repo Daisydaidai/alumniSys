@@ -1,0 +1,256 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.user-info-wrap.data-v-039fb488 {
+  padding: 0 32rpx;
+}
+.user-info-wrap .user-info-cont.data-v-039fb488 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  border-bottom: 1px solid #F0F2FA;
+  padding: 32rpx 0;
+}
+.user-info-wrap .user-info-cont .avatar-wrap.data-v-039fb488 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  height: 88rpx;
+}
+.user-info-wrap .user-info-cont .avatar-wrap .alumni-avatar.data-v-039fb488 {
+  width: 88rpx;
+  height: 88rpx;
+  border-radius: 50%;
+  z-index: 0;
+}
+.user-info-wrap .user-info-cont .avatar-wrap .sex-icon.data-v-039fb488 {
+  width: 24rpx;
+  height: 24rpx;
+  position: relative;
+  top: 64rpx;
+  right: 30rpx;
+  z-index: 99;
+}
+.user-info-wrap .user-info-cont .user-info.data-v-039fb488 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  color: #9FA4B5;
+  font-size: 24rpx;
+}
+.user-info-wrap .user-info-cont .user-info .username.data-v-039fb488 {
+  color: #34353B;
+  font-size: 32rpx;
+  font-weight: bold;
+  margin-right: 12rpx;
+}
+.cur-5.data-v-039fb488 {
+  padding: 26rpx 0 0 0 !important;
+  border-bottom: 16rpx solid #F5F7FF;
+}
+.cur-5 .prof-label.data-v-039fb488 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.collected-wrap.data-v-039fb488 {
+  padding: 36rpx 0;
+}
+.collected-wrap .collected-header.data-v-039fb488 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  padding: 0 32rpx;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.collected-wrap .collected-header .collected.data-v-039fb488 {
+  color: #0B102C;
+  font-size: 32rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.collected-wrap .collected-header .collected .collect-list.data-v-039fb488 {
+  width: 48rpx;
+  height: 48rpx;
+  margin-right: 10rpx;
+}
+.collected-wrap .collected-swiper.data-v-039fb488 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+  overflow-x: scroll;
+  padding: 20rpx 0 32rpx 32rpx;
+}
+.collected-wrap .collected-swiper .collect-none.data-v-039fb488 {
+  height: 156rpx;
+  line-height: 156rpx;
+  text-align: center;
+  width: 100%;
+  color: #595E75;
+  font-size: 28rpx;
+}
+.collected-wrap .collected-swiper .collected-item.data-v-039fb488 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  padding: 24rpx;
+  min-height: 156rpx;
+  box-shadow: 0px 8rpx 16rpx 0px rgba(0, 0, 0, 0.08);
+  border-radius: 8rpx;
+  margin-right: 20rpx;
+}
+.collected-wrap .collected-swiper .collected-item .avatar-wrap.data-v-039fb488 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  height: 64rpx;
+}
+.collected-wrap .collected-swiper .collected-item .avatar-wrap .alumni-avatar.data-v-039fb488 {
+  width: 64rpx;
+  height: 64rpx;
+  border-radius: 50%;
+  z-index: 0;
+}
+.collected-wrap .collected-swiper .collected-item .avatar-wrap .sex-icon.data-v-039fb488 {
+  width: 17rpx;
+  height: 17rpx;
+  position: relative;
+  top: 50rpx;
+  right: 23rpx;
+  z-index: 99;
+}
+.collected-wrap .collected-swiper .collected-item .alumni-info-wrap.data-v-039fb488 {
+  font-size: 20rpx;
+  color: #9FA4B5;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  min-width: 264rpx;
+}
+.collected-wrap .collected-swiper .collected-item .alumni-info-wrap .basics-info.data-v-039fb488 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.collected-wrap .collected-swiper .collected-item .alumni-info-wrap .basics-info .alumni-name.data-v-039fb488 {
+  color: #34353B;
+  font-size: 28rpx;
+  margin-right: 16rpx;
+}
+.collected-wrap .collected-swiper .collected-item .alumni-info-wrap .basics-info .is-collect.data-v-039fb488 {
+  width: 36rpx;
+  height: 36rpx;
+  margin-left: auto;
+}
+.collected-wrap .collected-swiper .collected-item .alumni-info-wrap .label-item.data-v-039fb488 {
+  white-space: nowrap;
+  font-size: 18rpx;
+  padding: 4rpx 12rpx;
+  background-color: #F5F7FF;
+  border-radius: 4rpx;
+  margin-top: 10rpx;
+  margin-right: 12rpx;
+}
+.collected-wrap .collected-swiper .collected-item .alumni-info-wrap .alumni-class.data-v-039fb488 {
+  white-space: nowrap;
+}
+.com-wrap.data-v-039fb488 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  padding: 36rpx 32rpx;
+}
+.com-wrap .com-left.data-v-039fb488 {
+  color: #0B102C;
+  font-size: 32rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.com-wrap .com-left image.data-v-039fb488 {
+  width: 48rpx;
+  height: 48rpx;
+  margin-right: 10rpx;
+}
+.com-wrap .com-right.data-v-039fb488 {
+  color: #9FA4B5;
+  font-size: 24rpx;
+}
+.no-wrap.data-v-039fb488 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  padding-right: 32rpx;
+  color: #9FA4B5;
+  font-size: 28rpx;
+}
+.no-wrap .no-list.data-v-039fb488 {
+  width: 160rpx;
+  height: 124rpx;
+  margin-bottom: 16rpx;
+}
+.hy-tags.data-v-039fb488 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  background-color: #F5F7FF;
+  padding: 4rpx 8rpx 4rpx 0;
+  margin-top: 10rpx;
+  border-radius: 8rpx;
+  font-size: 18rpx;
+}
+.hy-tags .hy-logo.data-v-039fb488 {
+  text-align: center;
+  color: #596FFE;
+  background-color: #E5E8FE;
+  border-radius: 8rpx;
+  margin-right: 8rpx;
+  padding: 4rpx;
+}
+.fenge.data-v-039fb488 {
+  width: 2rpx;
+  height: 36rpx;
+  background-color: #F0F2FA;
+  margin: 10rpx 16rpx 0;
+}
+
